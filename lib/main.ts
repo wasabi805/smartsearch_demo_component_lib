@@ -1,3 +1,7 @@
-export function helloAnything(thing: string): string {
-    return `Hello ${thing}!`
-  }
+import { SearchBar} from './components/searchBar'
+
+export default function helloAnything(thing : string) {
+    return "Hello ".concat(thing, "!");
+}
+
+export{ SearchBar }
